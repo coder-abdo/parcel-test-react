@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+html {
+  font-size: 10px;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+ul {
+  padding: 1rem 2rem;
+}
+
+#root {
+  padding: 4rem 0;
+  background-color: #f6ad7b;
+}
+
+h1 {
+  color: #65c584;
+  font-size: 5rem;
+  text-align: center;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 3px;
+}
+
+li {
+  font-size: 2rem;
+  font-family: "Stoke", serif;
+  color: #be7575;
+  text-align: center;
+  background-color: #f2eee5;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  border-radius: 3px;
+  box-shadow: 0 2px 1rem 0 rgba(107, 48, 7, 0.25);
+}
+li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=/app.c328ef1a.css.map */
