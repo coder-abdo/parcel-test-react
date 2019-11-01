@@ -31776,7 +31776,7 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react-dom.development.js');
 }
-},{"./cjs/react-dom.development.js":"../node_modules/react-dom/cjs/react-dom.development.js"}],"components/Todo.js":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"../node_modules/react-dom/cjs/react-dom.development.js"}],"components/Todo.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -31827,7 +31827,7 @@ var Todos = function Todos(_ref) {
 
 var _default = Todos;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","./Todo":"components/Todo.js"}],"C:/Users/elmanahry/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./Todo":"components/Todo.jsx"}],"C:/Users/elmanahry/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -31975,7 +31975,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52465" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49546" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
